@@ -38,6 +38,7 @@ dependencies:
   fluttertoast: ^8.2.5
   http: ^1.2.0
   shared_preferences: ^2.2.3
+  get: ^4.6.6
 
 dev_dependencies:
   flutter_test:
