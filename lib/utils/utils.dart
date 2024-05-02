@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
+import 'package:getx_mvvm/res/colors/app_color.dart';
 
 class Utils{
 
@@ -13,7 +14,7 @@ class Utils{
   static toastMessage(String message){
     Fluttertoast.showToast(msg: message,
     gravity:ToastGravity.BOTTOM,
-      backgroundColor:Colors.black26
+      backgroundColor:AppColor().blackColor
     );
   }
 
