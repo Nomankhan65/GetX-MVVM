@@ -22,7 +22,9 @@ class Utils{
   {
     Get.snackbar(
       title,
-      message
+      message,
+      backgroundColor:Colors.lightBlueAccent,
+      colorText:Colors.white,
     );
   }
 }

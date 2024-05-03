@@ -6,7 +6,11 @@ class Languages extends Translations{
   Map<String,Map<String,String>> get keys=>
       {
         'en_US':{
-          'name':'Enter Name'
+          'name':'Enter Name',
+          'welcome_back':'welcome back',
+          'email_hint':'Email',
+          'password_hint':'Password',
+          'login':'Login',
         },
         'ur_PK':{
           'name':'نام درج کریں'

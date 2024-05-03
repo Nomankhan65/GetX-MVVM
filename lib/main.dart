@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       getPages:Routes.appRoutes(),
-      home: const  SplashScreen(),
+      home:  SplashScreen(),
 
     );
   }
