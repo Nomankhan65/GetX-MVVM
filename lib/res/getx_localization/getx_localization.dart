@@ -11,6 +11,7 @@ class Languages extends Translations{
           'email_hint':'Email',
           'password_hint':'Password',
           'login':'Login',
+          'home':'home screen',
         },
         'ur_PK':{
           'name':'نام درج کریں'
