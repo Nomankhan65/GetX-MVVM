@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
           IconButton(onPressed: (){
             userPreferences.removeUser();
             Get.toNamed(RoutesName.loginScreen);
-          }, icon: const Icon(Icons.logout))
+          }, icon: const Icon(Icons.login_outlinedgit ))
         ],
       ),
     );
