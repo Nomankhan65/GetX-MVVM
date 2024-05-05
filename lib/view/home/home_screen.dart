@@ -20,11 +20,13 @@ class HomeScreen extends StatelessWidget {
           }, icon: const Icon(Icons.login_outlined))
         ],
       ),
-      body:const Column(
-        children: [
-
-        ],
-      ),
+      body:ListView.builder(
+          itemCount:10,
+          itemBuilder: (context,index){
+        return const ListTile(
+          leading:Icon(Icons.ac_unit),
+        )
+      })
     );
   }
 }
