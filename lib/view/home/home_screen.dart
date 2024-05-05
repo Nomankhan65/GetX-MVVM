@@ -23,9 +23,10 @@ class HomeScreen extends StatelessWidget {
       body:ListView.builder(
           itemCount:10,
           itemBuilder: (context,index){
-        return const ListTile(
-          leading:Icon(Icons.ac_unit),
-        )
+        return   ListTile(
+          leading:const Icon(Icons.ac_unit),
+          title:Text('user $index'),
+        );
       })
     );
   }
