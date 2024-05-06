@@ -26,6 +26,7 @@ class HomeScreen extends StatelessWidget {
         return  ListTile(
           leading:const Icon(Icons.person_pin),
           title:const Text('user'),
+          subtitle:const Text('abc@gmail.com'),
           trailing:Text(index.toString()),
         );
       })
