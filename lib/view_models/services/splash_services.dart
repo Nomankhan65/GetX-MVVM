@@ -9,7 +9,7 @@ class SplashServices{
   void isLogin(){
     userPreferences.getuser().then((value) {
        if(value.isLogin==false || value.isLogin.toString()=='null'){
-         Timer(const Duration(seconds:2), ()=>Get.toNamed(RoutesName.loginScreen));
+         Timer(const Duration(seconds:1), ()=>Get.toNamed(RoutesName.loginScreen));
        }else{
          Timer(const Duration(seconds:2), ()=>Get.toNamed(RoutesName.homeScreen));
        }

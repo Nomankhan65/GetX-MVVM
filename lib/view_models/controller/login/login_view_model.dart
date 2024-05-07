@@ -32,9 +32,8 @@ class LoginViewModel extends GetxController{
           isLogin:true,
         );
         userPreferences.saveUser(userModel).then((value) {
-          Get.to(RoutesName.homeScreen);
+          Get.toNamed(RoutesName.homeScreen);
         });
-        Utils.getSnackBar(String,'Login','Successfully login!');
         print(value.toString());
       }
 
